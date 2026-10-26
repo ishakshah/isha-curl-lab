@@ -1,0 +1,100 @@
+[
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 55.44,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 49,
+  "wash_time_ok": true,
+  "refresh_minutes": 10,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Cantu Shea Butter Natural Hair Cleansing Cream Shampoo",
+   "As I Am Classic Curl Clarity Shampoo",
+   "Cantu Sulfate Free Hydrating Cream Conditioner",
+   "Aussie Miracle Moist 3 Minute Miracle with Avocado Deep Conditioner",
+   "ApHogee Two Minute Intensive Keratin Reconstructor",
+   "Cantu Shea Butter Leave-In Conditioning Repair Cream",
+   "Aunt Jackie's Curl La La Defining Curl Custard",
+   "Kinky-Curly Original Curling Custard Natural Hair Styling Gel"
+  ],
+  "usage": {
+   "input_tokens": 30546,
+   "cached_tokens": 10180,
+   "output_tokens": 9470,
+   "requests": 12,
+   "tool_calls": 30,
+   "cost_usd": 0.006873,
+   "wall_seconds": 32.4
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2747,
+    "cached_tokens": 0,
+    "output_tokens": 653,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 1.2,
+    "cost_usd": 0.000601
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2940,
+    "cached_tokens": 2368,
+    "output_tokens": 841,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 1.2,
+    "cost_usd": 0.000501
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1018,
+    "cached_tokens": 0,
+    "output_tokens": 1504,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 0.6,
+    "cost_usd": 0.000854
+   },
+   {
+    "agent": "products",
+    "input_tokens": 9615,
+    "cached_tokens": 1205,
+    "output_tokens": 1964,
+    "requests": 2,
+    "tool_calls": 8,
+    "seconds": 0.9,
+    "cost_usd": 0.001835
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 6710,
+    "cached_tokens": 3095,
+    "output_tokens": 1379,
+    "requests": 3,
+    "tool_calls": 20,
+    "seconds": 1.6,
+    "cost_usd": 0.001082
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 7516,
+    "cached_tokens": 3512,
+    "output_tokens": 3129,
+    "requests": 2,
+    "tool_calls": 0,
+    "seconds": 27.9,
+    "cost_usd": 0.002
+   }
+  ],
+  "profile": "4C long, relaxed history, generous budget",
+  "seconds": 32.4,
+  "budget": 60
+ }
+]

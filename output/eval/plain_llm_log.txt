@@ -1,0 +1,12 @@
+ 2. 3A, color-treated and heat-styled          named  5, in catalog  2, stated total 9.5
+ 3. 3C high porosity, long, twist-outs         named  4, in catalog  0, stated total None
+ 1. 2B fine waves, short, quick routine        named  3, in catalog  0, stated total 4.0
+ 4. 4A short natural / TWA, tight budget       named  3, in catalog  2, stated total 2.0
+ 6. 4C long, relaxed history, generous budget  named  5, in catalog  2, stated total 25.0
+ 5. 4B braids, flaky scalp, fragrance-free     named  2, in catalog  0, stated total 16.35
+ 7. Locs, buildup, silicone-free               named  3, in catalog  1, stated total 6.0
+ 8. 3B buzzed, very low budget                 named  3, in catalog  0, stated total None
+ 9. 3B all three ingredient filters, thinning  named  3, in catalog  0, stated total 14.0
+10. 2C bleached, stretchy hair, bigger budget  named  8, in catalog  1, stated total 17.0
+products named 39; verified in catalog 8; price within $1.50 of catalog 4/8; preference violations 0
+cost $0.0247

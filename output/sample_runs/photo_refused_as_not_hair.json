@@ -1,0 +1,88 @@
+{
+ "what": "photo_refused_as_not_hair",
+ "run_id": "ba12e87e",
+ "steps": [
+  {
+   "run_id": "ba12e87e",
+   "kind": "photo",
+   "step": 0,
+   "logged_at": "2026-10-26T15:10:18-04:00",
+   "agent": "photo_analyst",
+   "event": "run_start",
+   "task": "Analyze this hair photo."
+  },
+  {
+   "run_id": "ba12e87e",
+   "kind": "photo",
+   "step": 1,
+   "logged_at": "2026-10-26T15:10:21-04:00",
+   "agent": "photo_analyst",
+   "event": "model_turn",
+   "model": "gpt-6-luna-global",
+   "text": null,
+   "tool_calls": [
+    "final_result"
+   ],
+   "tokens": {
+    "input": 1398,
+    "output": 142
+   }
+  },
+  {
+   "run_id": "ba12e87e",
+   "kind": "photo",
+   "step": 2,
+   "logged_at": "2026-10-26T15:10:21-04:00",
+   "agent": "photo_analyst",
+   "event": "tool_call",
+   "tool": "final_result",
+   "args": {
+    "is_hair_photo": false,
+    "problem": "This image doesn\u2019t clearly show hair. Please retake a well-lit, close-up or medium-distance photo of your natural hair, ideally just after washing and without styling products.",
+    "photo_quality": "poor",
+    "curl_pattern": null,
+    "alternate_pattern": null,
+    "mixed_patterns": false,
+    "pattern_confidence": "low",
+    "strand_width": null,
+    "density": null,
+    "porosity_estimate": null,
+    "porosity_confidence": "low",
+    "visible_signs": []
+   }
+  },
+  {
+   "run_id": "ba12e87e",
+   "kind": "photo",
+   "step": 3,
+   "logged_at": "2026-10-26T15:10:21-04:00",
+   "agent": "photo_analyst",
+   "event": "run_end",
+   "output": {
+    "is_hair_photo": false,
+    "problem": "This image doesn\u2019t clearly show hair. Please retake a well-lit, close-up or medium-distance photo of your natural hair, ideally just after washing and without styling products.",
+    "photo_quality": "poor",
+    "curl_pattern": null,
+    "alternate_pattern": null,
+    "mixed_patterns": false,
+    "pattern_confidence": "low",
+    "strand_width": null,
+    "density": null,
+    "porosity_estimate": null,
+    "porosity_confidence": "low",
+    "visible_signs": [],
+    "summary": ""
+   },
+   "usage": {
+    "agent": "photo_analyst",
+    "input_tokens": 1398,
+    "cached_tokens": 0,
+    "output_tokens": 142,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 3.0,
+    "cost_usd": 0.000211
+   }
+  }
+ ]
+}

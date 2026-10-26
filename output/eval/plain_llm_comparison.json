@@ -1,0 +1,544 @@
+[
+ {
+  "profile": "2B fine waves, short, quick routine",
+  "n_products": 3,
+  "in_catalog": 0,
+  "price_checked": 0,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 4.0,
+  "budget": 20,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 418,
+  "products": [
+   {
+    "named": "Not Your Mother\u2019s Naturals Blue Sea Kale & Pure Coconut Water Shampoo",
+    "stated_price": 8.0,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Not Your Mother\u2019s Naturals Blue Sea Kale & Pure Coconut Water Conditioner",
+    "stated_price": 8.0,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "LA Looks Extreme Sport Level 10 gel",
+    "stated_price": 3.5,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 837,
+   "cached_tokens": 0,
+   "output_tokens": 3947,
+   "cost_usd": 0.002057
+  },
+  "seconds": 54.8,
+  "answer": "## Simple 2B wash-and-go routine\n\nFor short, medium-porosity waves, start with just shampoo, conditioner, and gel. A heavy leave-in or curl cream can weigh 2B hair down, so you can skip one unless your hair still feels dry after trying this routine.\n\n| Product | Typical US price* | How to use |\n|---|---:|---|\n| **Not Your Mother\u2019s Naturals Blue Sea Kale & Pure Coconut Water Shampoo** (about 15.2 oz; sulfate-free) | **$7\u20139** | Shampoo your scalp; let the suds rinse through your ends. |\n| **Matching Blue Sea Kale & Pure Coconut Water Conditioner** (about 15.2 oz) | **$7\u20139** | Apply mainly to the mid-lengths and ends, detangle gently, then rinse well. |\n| **LA Looks Extreme Sport Level 10 gel** (about 20 oz; no sulfates) | **$3\u20134** | Smooth and scrunch into soaking-wet hair for hold and definition. |\n\n**Estimated initial product total:** about **$17\u201322 before tax**, depending on the store and sales. Prices and stock can vary around ZIP 60614, so check a nearby Target, Walmart, or drugstore.  \n\n**Estimated monthly product cost by amount used:** about **$3\u20135**. For example, at roughly 10 washes a month, using 5 mL shampoo, 10 mL conditioner, and 10 mL gel per wash, the cost is about **$3.20/month** at the prices above. That\u2019s the cost of what you use\u2014not the amount you\u2019ll pay every month at checkout. The bottles should last several months.\n\n### Wash day \u2014 every 3 days (about 40 minutes of active time)\n\n1. **Cleanse:** Shampoo your scalp with a small amount. If your scalp feels clean after one pass, don\u2019t shampoo twice.\n2. **Condition:** Apply conditioner from mid-lengths to ends. Detangle with fingers or a wide-tooth comb, then rinse thoroughly.\n3. **Style while soaking wet:** Scrunch in a small amount of gel, adding a little more only if needed. More gel is usually better than adding a heavy cream for definition.\n4. **Dry:** Scrunch gently with a T-shirt or microfiber towel, then air-dry or diffuse on low heat/low airflow. Try not to touch your hair while it dries; once fully dry, scrunch out any firm gel cast.\n\n### Between washes \u2014 5 minutes\n\nWet your hands or lightly mist your hair, then scrunch to revive the waves. Avoid brushing dry hair, which can increase frizz. You usually won\u2019t need to add more gel every day.\n\n\\*Prices are estimates, not live local inventory or checkout quotes. If your hair feels coated or limp, use a slightly smaller amount of conditioner or gel and rinse conditioner more thoroughly."
+ },
+ {
+  "profile": "3A, color-treated and heat-styled",
+  "n_products": 5,
+  "in_catalog": 2,
+  "price_checked": 2,
+  "price_ok": 2,
+  "pref_violations": 0,
+  "stated_total": 9.5,
+  "budget": 40,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 550,
+  "products": [
+   {
+    "named": "Not Your Mother\u2019s Curl Talk Shampoo, 12 oz",
+    "stated_price": 8.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Not Your Mother\u2019s Curl Talk Conditioner, 12 oz",
+    "stated_price": 8.99,
+    "in_catalog": true,
+    "catalog_price": 8.79,
+    "price_ok": true,
+    "pref_violation": false
+   },
+   {
+    "named": "Not Your Mother\u2019s Curl Talk Leave-In Conditioner, 6 oz",
+    "stated_price": 8.99,
+    "in_catalog": true,
+    "catalog_price": 8.79,
+    "price_ok": true,
+    "pref_violation": false
+   },
+   {
+    "named": "Aussie 3 Minute Miracle Moist, 8 oz",
+    "stated_price": 5.49,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "LA Looks Extreme Sport Gel, 20 oz",
+    "stated_price": 3.49,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1035,
+   "cached_tokens": 0,
+   "output_tokens": 4042,
+   "cost_usd": 0.002125
+  },
+  "seconds": 33.6,
+  "answer": "## Simple wash-and-go routine\n\nFor 3A, medium-porosity curls, start with a light leave-in and a firm-hold gel. The gel helps your wash-and-go last between washes; you don\u2019t need to add oil unless you find your ends still feel dry.\n\n### Shopping list\n\nTypical US drugstore/retailer prices; prices and availability near ZIP 30303 can vary.\n\n| Product | Approx. price | Use |\n|---|---:|---|\n| **Not Your Mother\u2019s Curl Talk Shampoo**, 12 oz | $8.99 | Cleanse scalp every wash |\n| **Not Your Mother\u2019s Curl Talk Conditioner**, 12 oz | $8.99 | Condition and detangle on most washes |\n| **Not Your Mother\u2019s Curl Talk Leave-In Conditioner**, 6 oz | $8.99 | Small amount on wet hair before gel |\n| **Aussie 3 Minute Miracle Moist**, 8 oz | $5.49 | Use instead of regular conditioner every other wash |\n| **LA Looks Extreme Sport Gel**, 20 oz | $3.49 | Define and hold curls |\n\n**First purchase: about $35.95 before tax.** With roughly 8.9% sales tax, that\u2019s about **$39.15**. Prices can shift, so check the shelf price before buying.\n\n### Wash day \u2014 about 60\u201375 minutes\n\nWash every five days, or about six times a month.\n\n1. **Shampoo:** Wet your hair thoroughly. Massage shampoo into your scalp with your fingertips, then let the rinse clean the lengths. Use a second lather only if your scalp still feels coated.\n2. **Condition and detangle:** On most washes, apply conditioner from mid-lengths to ends. Detangle gently with fingers or a wide-tooth comb, starting at the ends and working upward. Rinse.\n3. **Every other wash:** After shampooing, use the Aussie treatment instead of regular conditioner. Leave it on for about 3 minutes, then rinse.\n4. **Style on very wet hair:** Smooth a small amount of leave-in over your hair, then apply gel in sections and scrunch. Start with less product; add a little more only where needed.\n5. **Dry:** Gently squeeze out water with a T-shirt or microfiber towel\u2014don\u2019t rub. Air-dry or diffuse on low heat/low speed. Try not to touch curls while they\u2019re drying; once fully dry, scrunch out any gel cast.\n\n### Between wash days \u2014 under 15 minutes\n\n- **Refresh:** Mist flattened or frizzy sections with water and scrunch. If needed, smooth a *tiny* amount of leave-in diluted in wet hands over dry-feeling ends. Avoid adding a full new layer of gel every day.\n- **Protect overnight:** Use a satin bonnet or satin pillowcase, and loosely gather your hair with a soft scrunchie. Avoid tight ponytails and rough brushing.\n\n### Estimated monthly product cost\n\nAssuming about six washes per month, small amounts of leave-in and gel each wash, and the Aussie treatment every other wash:\n\n- Shampoo: **about $2.25/month**\n- Conditioner: **about $2.25/month**\n- Leave-in: **about $1.80/month**\n- Gel: **about $0.80/month**\n- Aussie treatment: **about $2.05/month**\n\n**Estimated usage cost: about $9\u201310 per month before tax.** That\u2019s an average based on how quickly the bottles are used, not what you\u2019ll pay every month at checkout; your first restock will be larger. If your hair needs more product than estimated, you still have room in your **$40 monthly budget**.\n\nFor breakage, the biggest routine changes are gentle detangling, less tension, and avoiding towel-rubbing. If breakage continues despite gentler handling, or comes with scalp irritation or thinning, consider checking in with a dermatologist."
+ },
+ {
+  "profile": "3C high porosity, long, twist-outs",
+  "n_products": 4,
+  "in_catalog": 0,
+  "price_checked": 0,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": null,
+  "budget": 35,
+  "claims_within_budget": false,
+  "used_forecast": false,
+  "answer_words": 613,
+  "products": [
+   {
+    "named": "Dove Daily Moisture Shampoo, 28 oz",
+    "stated_price": 6.47,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "TRESemm\u00e9 Rich Moisture Conditioner, 28 oz",
+    "stated_price": 5.98,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "African Pride Moisture Miracle Leave-In Cream, 18 oz",
+    "stated_price": 5.97,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "LA Looks Extreme Sport Gel, 20 oz",
+    "stated_price": 3.48,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1081,
+   "cached_tokens": 0,
+   "output_tokens": 5347,
+   "cost_usd": 0.002782
+  },
+  "seconds": 53.3,
+  "answer": "## Product list and cost\n\nThese are commonly available at Walmart or Target; prices are approximate and can vary by store. The **one-time starter basket is about $22 before tax**, so it should fit your $35 budget.\n\n| Product | Approx. price | How to use it |\n|---|---:|---|\n| Dove Daily Moisture Shampoo, 28 oz | $6.47 | Weekly scalp cleanse |\n| TRESemm\u00e9 Rich Moisture Conditioner, 28 oz | $5.98 | Detangling and conditioning |\n| African Pride Moisture Miracle Leave-In Cream, 18 oz | $5.97 | Leave-in for styling |\n| LA Looks Extreme Sport Gel, 20 oz | $3.48 | Hold for twist-outs or braid-outs |\n\n**Estimated product use per month: about $8\u201312.** That estimate assumes four washes and moderate use; your actual cost will depend on how much product your length and density need. Because the products come in larger bottles, you shouldn\u2019t need to replace them every month. The starter basket is about **$24 including estimated Houston sales tax**, before any delivery fees.\n\n## Weekly wash day \u2014 up to 150 minutes of active time\n\nDrying time is separate: long twists or braids may take several hours or overnight to dry fully.\n\n1. **Section and detangle \u2014 15 minutes.** Divide into 4\u20136 sections. If your hair tangles easily, lightly wet it or add conditioner before detangling; work from the ends upward.\n2. **Shampoo \u2014 10 minutes.** Clean your scalp in sections, then let the suds rinse through the lengths. Shampoo again only if you have noticeable buildup.\n3. **Condition and detangle \u2014 25\u201330 minutes.** Apply TRESemm\u00e9 conditioner generously, detangle gently, and leave it on for about 10\u201315 minutes before rinsing.\n4. **Blot and section \u2014 10 minutes.** Use a T-shirt or microfiber towel; avoid rough towel rubbing.\n5. **Set your style \u2014 75\u201385 minutes.** On very damp hair, apply a modest amount of leave-in, then gel section by section. Make **8\u201312 medium twists** for a twist-out or **6\u201310 braids** for a more stretched braid-out. Braid-outs generally elongate curls more.\n6. **Let it dry completely.** Don\u2019t unravel while damp\u2014the extra time usually means more frizz and less definition.\n\nIf detangling and styling your long hair regularly exceed 150 minutes, detangle gently the night before wash day or use larger sections.\n\n## Normal days \u2014 20 minutes or less\n\n- **At night:** Loosely gather your hair or put it in a few large, gentle twists or braids, then cover it with a satin bonnet or use a satin pillowcase.\n- **In the morning:** Take down the sections and separate gently. Use a little leave-in on your hands only where hair feels dry; avoid soaking the whole style, which can bring back shrinkage and frizz.\n- **For a quick refresh:** Smooth a small amount of water and leave-in over just the frizzy or flattened sections, then re-twist them. Let them dry before taking them down.\n\n## Adjustments for your concerns\n\n- **Dryness:** Focus conditioner and leave-in on the lengths and ends. Add more leave-in only if your hair still feels dry; more oil or product layers aren\u2019t automatically more moisturizing.\n- **Frizz:** Use consistent, small sections and enough gel to coat them, then leave the style alone until fully dry. In Houston\u2019s humidity, try using a little less leave-in if your style puffs up, while keeping the gel step.\n- **Shrinkage:** Choose braid-outs when you want extra stretch. You can also loosely band fully dry braids or twists with soft scrunchies; avoid pulling tightly. Some shrinkage is normal and can\u2019t be removed without heat or tension.\n- **Product buildup:** If your hair starts feeling coated or your scalp feels itchy, shampoo thoroughly. Rinse well, especially around the scalp and nape."
+ },
+ {
+  "profile": "4A short natural / TWA, tight budget",
+  "n_products": 3,
+  "in_catalog": 2,
+  "price_checked": 2,
+  "price_ok": 2,
+  "pref_violations": 0,
+  "stated_total": 2.0,
+  "budget": 15,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 364,
+  "products": [
+   {
+    "named": "Cantu Sulfate-Free Cleansing Cream Shampoo, 13.5 oz",
+    "stated_price": 5.97,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Cantu Hydrating Cream Conditioner, 13.5 oz",
+    "stated_price": 5.97,
+    "in_catalog": true,
+    "catalog_price": 5.99,
+    "price_ok": true,
+    "pref_violation": false
+   },
+   {
+    "named": "Cantu Leave-In Conditioning Repair Cream, 16 oz",
+    "stated_price": 6.97,
+    "in_catalog": true,
+    "catalog_price": 5.99,
+    "price_ok": true,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 759,
+   "cached_tokens": 0,
+   "output_tokens": 5375,
+   "cost_usd": 0.002763
+  },
+  "seconds": 38.3,
+  "answer": "## Simple 4A routine\n\nFor a short cut, you can keep this to three products. Prices below are estimates at US retailers such as Walmart or Target; local prices and availability in 90012 may vary.\n\n| Product | Approx. price | How to use |\n|---|---:|---|\n| **Cantu Sulfate-Free Cleansing Cream Shampoo**, 13.5 oz | **$5.97** | Weekly, mainly on your scalp |\n| **Cantu Hydrating Cream Conditioner**, 13.5 oz | **$5.97** | Weekly, after shampoo |\n| **Cantu Leave-In Conditioning Repair Cream**, 16 oz | **$6.97** | A small amount on damp hair after washing |\n\n### Wash day \u2014 once every 7 days, about 30\u201345 minutes\n1. Thoroughly wet your hair. Use about **1\u20132 teaspoons of shampoo**, concentrating on your scalp; let the suds run through the ends as you rinse.\n2. Apply conditioner and gently detangle with your fingers or a wide-tooth comb. Leave it on for **3\u20135 minutes**, then rinse.\n3. Blot\u2014don\u2019t rub\u2014with a T-shirt or microfiber towel. While your hair is still damp, smooth in a **pea- to dime-sized amount** of leave-in and shape your curls with your fingers.\n4. Let it air-dry, or use a diffuser on low if you have one.\n\n### Normal days \u2014 about 2\u20135 minutes\nWet your hands or lightly mist your hair with water, then reshape the curls with your fingers. If your hair still feels dry, smooth on a **tiny dab** of leave-in. You likely won\u2019t need it every day; too much can build up.\n\n## Cost\n\n- **Initial basket:** about **$18.91 before tax**\n- **Estimated product use per month:** about **$2.00**\u2014roughly 1 oz shampoo, 2 oz conditioner and 1.5 oz leave-in\n- **Practical monthly budget:** set aside **$3\u20135** to allow for using more product or local price differences. That\u2019s within your **$15/month** budget.\n\nThe monthly figure is the cost of the amount used, not a monthly restock\u2014the bottles should last several months. If by \u201c$15/month\u201d you mean a strict **$15 maximum checkout**, buy the products across separate months; you won\u2019t need to replace them monthly.\n\nFor dryness, focus shampoo on the scalp, condition every wash, and use water to refresh between washes. You don\u2019t need to add oil to the routine."
+ },
+ {
+  "profile": "4B braids, flaky scalp, fragrance-free",
+  "n_products": 2,
+  "in_catalog": 0,
+  "price_checked": 0,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 16.35,
+  "budget": 30,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 454,
+  "products": [
+   {
+    "named": "Vanicream Dandruff Shampoo, 2% pyrithione zinc, 8 oz",
+    "stated_price": 13.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Jessicurl Aloeba Daily Conditioner \u2014 No Fragrance Added, 8 oz",
+    "stated_price": 14.95,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 889,
+   "cached_tokens": 0,
+   "output_tokens": 5656,
+   "cost_usd": 0.002917
+  },
+  "seconds": 40.1,
+  "answer": "## Routine at a glance\n\nFor flaky scalp, I\u2019d try washing **weekly for 4\u20136 weeks** rather than waiting 14 days. You can wash while wearing loose braids, or take them down if they\u2019re due for a restyle. Once the flakes are controlled, see whether your scalp tolerates returning to every 10\u201314 days.\n\n### Products\n\n| Product | Approx. US price | Use |\n|---|---:|---|\n| **Vanicream Dandruff Shampoo**, 2% pyrithione zinc, 8 oz | **$13.99** | Medicated scalp wash |\n| **Jessicurl Aloeba Daily Conditioner \u2014 \u201cNo Fragrance Added\u201d option**, 8 oz | **$14.95** | Rinse-out conditioner and a small amount as leave-in |\n\n**Estimated first purchase: $28.94** before tax or shipping. Both are sold in the US; availability and prices vary by retailer, so check that you select Jessicurl\u2019s **No Fragrance Added** version, not a scented one. It may still have a slight scent from its ingredients.\n\n### Wash day \u2014 about 90\u2013120 minutes\n\n1. **Detangle gently** in sections, using wet hair and conditioner for slip. Work from the ends upward; avoid pulling through dry knots.\n2. **Cleanse your scalp** with the Vanicream shampoo. Focus on the scalp rather than scrubbing the lengths; use your fingertips, not your nails. Follow the bottle\u2019s directions for how often to use it and how long to leave it on.\n3. **Condition the lengths** with Aloeba. Leave it on for 5\u201310 minutes, then rinse well. Detangle while it\u2019s in your hair.\n4. On damp hair, smooth a **small amount of Aloeba** over the lengths and ends as a leave-in, then put your hair into loose braids or twists. Avoid tight tension and let your hair dry fully.\n\nIf you wash in braids, part the hair and get the shampoo onto the scalp, then rinse very thoroughly to limit residue.\n\n### Normal day \u2014 about 5\u201310 minutes\n\n- If the ends feel dry, dampen them with water and smooth on a **small amount of Aloeba**. Avoid repeatedly layering product over buildup.\n- Keep braids loose, protect your hair at night with a satin bonnet or pillowcase, and avoid scratching or oiling a flaky scalp.\n\n## Estimated monthly cost\n\nAssuming one weekly wash, about 1 oz of shampoo and 1\u00bc oz of conditioner per wash:\n\n- Vanicream shampoo: **about $7.00/month**\n- Jessicurl conditioner: **about $9.35/month**\n- **Estimated ongoing total: about $16.35/month** before tax or shipping\n\nThat\u2019s an average based on how long the bottles should last, not a promise that every month\u2019s checkout will be exactly that amount. It stays within your **$30/month** budget.\n\nIf flakes persist after a few weeks of using the shampoo as directed\u2014or you have significant itching, redness, thick scale, or hair loss\u2014check with a dermatologist. Flaking can have causes that need a different treatment."
+ },
+ {
+  "profile": "4C long, relaxed history, generous budget",
+  "n_products": 5,
+  "in_catalog": 2,
+  "price_checked": 2,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 25.0,
+  "budget": 60,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 634,
+  "products": [
+   {
+    "named": "TGIN Moisture Rich Sulfate-Free Shampoo, 13 oz",
+    "stated_price": 13.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Aussie 3 Minute Miracle Moist Conditioner, 16 oz",
+    "stated_price": 6.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Kinky-Curly Knot Today Leave-In, 8 oz",
+    "stated_price": 13.99,
+    "in_catalog": true,
+    "catalog_price": 16.99,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Eco Style Olive Oil Styling Gel, 32 oz",
+    "stated_price": 5.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Aphogee Two-Minute Reconstructor, 8 oz",
+    "stated_price": 8.99,
+    "in_catalog": true,
+    "catalog_price": 14.99,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1125,
+   "cached_tokens": 0,
+   "output_tokens": 3808,
+   "cost_usd": 0.002017
+  },
+  "seconds": 34.8,
+  "answer": "## Routine at a glance\n\nFor long, high-porosity 4C hair, the priorities are **gentle detangling, steady hold, and low manipulation**. A wash-and-go can give definition and reduce styling time, though shrinkage is normal and results will vary by section.\n\nPrices below are approximate US retail prices, not live quotes for ZIP 98101. Check Target, Walmart, Sally Beauty, or online retailers for current availability.\n\n### Products and budget\n\n| Product | Approx. price | How it fits the routine |\n|---|---:|---|\n| **TGIN Moisture Rich Sulfate-Free Shampoo**, 13 oz | $13.99 | Weekly scalp cleanse |\n| **Aussie 3 Minute Miracle Moist Conditioner**, 16 oz | $6.99 | Weekly conditioning and detangling |\n| **Kinky-Curly Knot Today Leave-In**, 8 oz | $13.99 | Light leave-in under your styler |\n| **Eco Style Olive Oil Styling Gel**, 32 oz | $5.99 | Affordable hold for definition |\n| **Aphogee Two-Minute Reconstructor**, 8 oz | $8.99 | Occasional protein treatment; optional if hair feels strong |\n\n**One-time basket estimate: $49.95.** That fits your $60 monthly budget before tax and leaves room for price variation.\n\nEstimated ongoing cost is about **$25 per month**, based on roughly 4.3 washes per month and these amounts per wash: 1.5 oz shampoo, 3 oz conditioner, 1.25 oz leave-in, and 3 oz gel, plus a small prorated amount of Aphogee used every six weeks. Actual use may be higher or lower depending on your hair\u2019s density and how much gel you like. The first month may mean buying full bottles; the $25 figure is the estimated average cost of what you use, not a monthly checkout total.\n\n## Wash day: allow up to 180 minutes\n\n1. **Cleanse \u2014 15 minutes.** Work in 4\u20136 sections. Apply shampoo mainly to your scalp, massage with fingertips, and let the suds rinse through the lengths rather than piling your hair on top of your head.\n2. **Condition and detangle \u2014 25\u201335 minutes.** Apply Aussie generously. Detangle gently with fingers or a wide-tooth comb, starting at the ends and working upward, one section at a time. Rinse well.\n3. **Protein treatment \u2014 every 4\u20136 weeks, if needed.** Use Aphogee according to its label, then condition. Skip it if your hair feels stiff or brittle; too much protein can make some hair feel less flexible.\n4. **Style on soaking-wet hair \u2014 55\u201375 minutes.** In each section, smooth a modest amount of Knot Today through the hair, then layer on Eco gel. Use smaller sections where you want more definition. Keep product application even, but avoid repeatedly raking or pulling through the same section.\n5. **Dry fully \u2014 45\u201360 minutes.** Air-dry or diffuse on low/medium heat with minimal handling. Avoid sleeping on or tying up wet hair.\n\nTry the leave-in and gel together on a small section first. If they leave white residue or flakes, use less leave-in, apply the products to wetter hair, or use the gel without leave-in on a test section.\n\n## Between wash days: 20 minutes or less\n\n- **Morning refresh, only where needed:** Wet your hands and smooth water over flattened or frizzy sections. Add a tiny amount of leave-in or gel to those areas\u2014not another full head of product. This should take about **5\u201310 minutes**.\n- **At night:** Put your hair in a loose pineapple or a few loose sections and use a satin bonnet or pillowcase. Keep ties loose, and don\u2019t go to bed with wet hair.\n- **Skip daily heavy oiling.** Oils and butters aren\u2019t required for moisture, and layering them under gel can weigh hair down or interfere with hold.\n\n## Breakage-focused habits\n\nHandle hair when it is damp and conditioned, avoid dry detangling and tight styles, and limit repeated restyling during the week. If breakage continues despite gentler handling\u2014or you notice thinning, bald spots, or scalp symptoms\u2014consider seeing a dermatologist."
+ },
+ {
+  "profile": "Locs, buildup, silicone-free",
+  "n_products": 3,
+  "in_catalog": 1,
+  "price_checked": 1,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 6.0,
+  "budget": 25,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 534,
+  "products": [
+   {
+    "named": "As I Am Curl Clarity Shampoo, 8 oz",
+    "stated_price": 9.99,
+    "in_catalog": true,
+    "catalog_price": 7.19,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Giovanni 50:50 Balanced Conditioner, 8.5 oz",
+    "stated_price": 9.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Eco Styler Olive Oil Styling Gel, 16 oz",
+    "stated_price": 4.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1009,
+   "cached_tokens": 0,
+   "output_tokens": 4423,
+   "cost_usd": 0.002312
+  },
+  "seconds": 32.4,
+  "answer": "## Routine for loose 4B hair, with loc-inspired styling\n\nThis routine is for **loose natural hair**, styled in twists if you like the look of locs. Two-strand twists are a temporary style, not locs. If your hair is already loc\u2019d, skip the conditioner-and-gel routine\u2014loc care needs different product choices to avoid residue in the locs.\n\n### Silicone-free products\n\nPrices are typical US retail estimates, not live quotes; availability and prices can vary around ZIP 33101. Check the current ingredient label before buying, since formulas can change.\n\n| Product | Approx. price | Use |\n|---|---:|---|\n| **As I Am Curl Clarity Shampoo, 8 oz** | **$9.99** | Cleanses scalp and removes styling residue; silicone-free |\n| **Giovanni 50:50 Balanced Conditioner, 8.5 oz** | **$9.99** | Detangling and conditioning; silicone-free |\n| **Eco Styler Olive Oil Styling Gel, 16 oz** | **$4.99** | Optional, small amount for twist definition; silicone-free |\n\n**Initial product total: about $24.97 before tax.** Prices may differ by retailer; look at Sally Beauty, Whole Foods, Walmart, Target, or their online stores for current availability.\n\n### Wash day \u2014 every 10 days (about 90 minutes)\n\n1. **Section and detangle \u2014 15\u201320 min:** Split hair into 4\u20136 sections. Wet one section at a time and gently detangle from ends upward, using conditioner for slip if needed.\n2. **Shampoo \u2014 10\u201315 min:** Cleanse the scalp in sections with fingertips, not nails. Use a second pass only if your scalp still feels coated. Rinse thoroughly.\n3. **Condition \u2014 10\u201315 min:** Apply conditioner mainly to the lengths and ends, detangle, then rinse well. Avoid leaving conditioner in your hair; rinsing it out helps limit residue.\n4. **Style \u2014 25\u201335 min:** While hair is damp, make twists or mini twists. If you want more definition, use a small amount of gel on the lengths\u2014not at the roots. You can also style without gel.\n5. **Dry:** Let twists dry fully before covering them or going to bed.\n\n### Normal day \u2014 10 minutes\n\n- Keep the style intact; **you don\u2019t need to add product every day**.\n- If it feels dry, lightly dampen the lengths with water and smooth them with your hands.\n- Use a tiny dab of gel only for a spot that needs smoothing. Sleep in a satin bonnet or use a satin pillowcase.\n\n### Buildup prevention\n\nUse modest amounts of gel, rinse conditioner thoroughly, and avoid layering on oils, butters, and daily refresh products. At each wash, focus shampoo on the scalp and let the lather clean the lengths as you rinse. On labels, avoid silicone ingredients such as **dimethicone, amodimethicone, and ingredients ending in \u201c-cone,\u201d \u201c-conol,\u201d or \u201c-siloxane.\u201d**\n\n### Estimated monthly cost\n\nWith roughly **3 washes per month**, the products above should last beyond one month. Using about 1 tablespoon of shampoo, 2 tablespoons of conditioner, and 1 tablespoon of gel per wash, the estimated monthly product use is about:\n\n- Shampoo: **$1.90**\n- Conditioner: **$3.60**\n- Gel: **$0.50**\n- **Estimated total: about $6 per month**\n\nActual use varies, especially with hair density and how much conditioner you need; budgeting **around $6\u2013$12 per month** is a more practical range. This is the cost of product used over time, not the initial checkout total."
+ },
+ {
+  "profile": "3B buzzed, very low budget",
+  "n_products": 3,
+  "in_catalog": 0,
+  "price_checked": 0,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": null,
+  "budget": 10,
+  "claims_within_budget": false,
+  "used_forecast": false,
+  "answer_words": 321,
+  "products": [
+   {
+    "named": "VO5 Moisture Milks Moisturizing Shampoo, 15 fl oz",
+    "stated_price": 1.25,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "VO5 Moisture Milks Moisturizing Conditioner, 15 fl oz",
+    "stated_price": 1.25,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "LA Looks Extreme Sport Styling Gel, 20 oz",
+    "stated_price": 3.5,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 701,
+   "cached_tokens": 0,
+   "output_tokens": 5020,
+   "cost_usd": 0.00258
+  },
+  "seconds": 43.7,
+  "answer": "## Simple low-manipulation routine\n\nAt your length, you can keep this to shampoo, conditioner, and an optional styling gel. You don\u2019t need to add oil or butter unless you already know your hair likes it.\n\n| Product | Approx. US price | Where to look |\n|---|---:|---|\n| **VO5 Moisture Milks Moisturizing Shampoo**, 15 fl oz | **$1.25** | Walmart, Dollar General, or other US discount/drugstore retailers |\n| **VO5 Moisture Milks Moisturizing Conditioner**, 15 fl oz | **$1.25** | Same |\n| **LA Looks Extreme Sport Styling Gel**, 20 oz | **$3.50** | Walmart, drugstores, or online |\n\n**One-time basket:** about **$6.00 before tax**, or **$6.38 with Connecticut\u2019s 6.35% sales tax**. Prices and local stock vary; shipping could add cost.\n\n### Every 4 days: wash day (about 10\u201315 minutes, plus drying)\n1. Wet your hair and scalp with lukewarm water. Use about **a teaspoon of shampoo** to wash the scalp; rinse well. One lather should usually be enough.\n2. Apply about **a teaspoon of conditioner** to your hair. Gently finger-detangle while it\u2019s slippery, then rinse.\n3. While hair is damp, smooth on a **pea-sized amount of gel** and shape the curls with your hands. Use less\u2014or skip it\u2014if your hair is buzzed very close.\n4. Let it air-dry, and avoid handling it while it dries.\n\n### Normal days (under 5 minutes)\nIf your curls look fine, leave them alone. If they\u2019re flattened or dry, wet your hands, smooth the hair back into shape, and use a tiny dab of gel if needed. Avoid brushing or repeatedly restyling.\n\n## Monthly cost\n\nAt roughly **7\u20138 washes a month**, using small amounts suited to short hair, the three bottles should last well beyond a month. A rough usage-based estimate is **about $0.35\u2013$1 per month** before tax, depending on how much gel you use. Even buying a new bottle of each product every month would be about **$6.38 with tax**, under your **$10/month** budget."
+ },
+ {
+  "profile": "3B all three ingredient filters, thinning",
+  "n_products": 3,
+  "in_catalog": 0,
+  "price_checked": 0,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 14.0,
+  "budget": 45,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 528,
+  "products": [
+   {
+    "named": "Vanicream Vanicream Shampoo, 12 oz",
+    "stated_price": 11.0,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Vanicream Vanicream Conditioner, 12 oz",
+    "stated_price": 11.0,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Jessicurl Spiralicious Styling Gel \u2014 No Fragrance Added, 8 oz",
+    "stated_price": 18.0,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1003,
+   "cached_tokens": 0,
+   "output_tokens": 4899,
+   "cost_usd": 0.00255
+  },
+  "seconds": 46.2,
+  "answer": "## Simple 3B routine\n\nThis routine uses fragrance-free, sulfate-free, silicone-free products and keeps the initial product purchase under your $45 monthly budget. Prices are approximate U.S. prices before tax and shipping; stock and prices can vary.\n\n| Product | Approx. price | Why it\u2019s here |\n|---|---:|---|\n| **Vanicream Shampoo**, 12 oz | **$11** | Fragrance-free and free of sulfate cleansing agents and silicones. Available from Vanicream and commonly sold at U.S. pharmacies and retailers. |\n| **Vanicream Conditioner**, 12 oz | **$11** | Fragrance-free and silicone-free; use it for slip while detangling. |\n| **Jessicurl Spiralicious Styling Gel \u2014 No Fragrance Added**, 8 oz | **$18** | Silicone- and sulfate-free styling hold for twists or braids. Buy the **No Fragrance Added** version from Jessicurl\u2019s U.S. site. |\n\n**Initial cart: about $40.** Check the current ingredient list before buying, since formulas can change.\n\n### Wash day \u2014 every 7 days, about 90 minutes\n\n1. **Section first:** Divide your hair into 4\u20136 sections. Work one section at a time to limit tangling.\n2. **Cleanse:** Wet your scalp and hair well. Shampoo the scalp with your fingertips, then rinse. If there is noticeable buildup, shampoo a second time rather than scrubbing the lengths.\n3. **Condition and detangle:** Apply conditioner generously, especially to the lengths. Finger-detangle from ends upward; use a wide-tooth comb only if needed and while the hair is slippery with conditioner. Rinse.\n4. **Style while very wet:** Smooth a small amount of gel over each section, then make loose twists or braids. Avoid pulling tightly at the hairline or scalp. Let the style dry fully before taking it down.\n5. **Take down gently:** Once completely dry, unravel with a little gel on your fingertips if needed. Separate the curls gently rather than combing them out.\n\nThe 90 minutes should cover washing, detangling, and styling; air-drying may take longer. You don\u2019t need to add oil to the routine.\n\n### Normal days \u2014 about 15 minutes\n\n- **Refresh:** Wet your hands or lightly mist a few frizzy sections with water. Smooth over a *small* amount of gel diluted between wet palms, then re-twist or re-braid only those sections if needed. Avoid brushing or combing dry curls.\n- **At night:** Protect the style with a satin bonnet or pillowcase. This is an accessory, not included in the product budget.\n\n### Estimated monthly product cost\n\nAssuming about \u00bd oz shampoo, 1\u00bc oz conditioner, and \u00bd\u20131 oz gel per wash, four to five washes a month:\n\n- Shampoo: **about $2/month**\n- Conditioner: **about $5/month**\n- Gel: **about $5\u2013$10/month**\n- **Estimated total: about $12\u2013$17 per month**; a reasonable planning figure is **about $14/month**, before tax and shipping.\n\nYou\u2019ll buy full bottles less often than monthly, so the initial cart is about $40 and the ongoing average should stay well below your $45 budget.\n\n### About thinning\n\nA routine can reduce **breakage and traction**, but it can\u2019t diagnose or treat hair loss. Keep twists and braids loose, especially around the edges, and avoid repeatedly wearing styles that pull on the same spots. If thinning is progressing, you notice bald patches, or your scalp is itchy, painful, or inflamed, check in with a dermatologist or clinician."
+ },
+ {
+  "profile": "2C bleached, stretchy hair, bigger budget",
+  "n_products": 8,
+  "in_catalog": 1,
+  "price_checked": 1,
+  "price_ok": 0,
+  "pref_violations": 0,
+  "stated_total": 17.0,
+  "budget": 80,
+  "claims_within_budget": true,
+  "used_forecast": false,
+  "answer_words": 698,
+  "products": [
+   {
+    "named": "L\u2019Or\u00e9al Paris EverPure Moisture Shampoo, 8.5 oz",
+    "stated_price": 9.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "L\u2019Or\u00e9al Paris EverPure Moisture Conditioner, 8.5 oz",
+    "stated_price": 9.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Garnier Fructis Hair Filler + Ceramide Moisture Repair Mask, 13.5 oz",
+    "stated_price": 9.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Kinky-Curly Knot Today Leave-In/Detangler, 8 oz",
+    "stated_price": 13.99,
+    "in_catalog": true,
+    "catalog_price": 16.99,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "LA Looks Extreme Sport Gel, 20 oz",
+    "stated_price": 4.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "Suave Daily Clarifying Shampoo, large bottle",
+    "stated_price": 2.5,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "HASK Keratin Protein Deep Conditioner packet",
+    "stated_price": 2.49,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   },
+   {
+    "named": "TRESemm\u00e9 Thermal Creations Heat Tamer, 8 oz",
+    "stated_price": 7.99,
+    "in_catalog": false,
+    "catalog_price": null,
+    "price_ok": false,
+    "pref_violation": false
+   }
+  ],
+  "usage": {
+   "input_tokens": 1258,
+   "cached_tokens": 0,
+   "output_tokens": 4853,
+   "cost_usd": 0.002552
+  },
+  "seconds": 40.4,
+  "answer": "## Routine for 2C, high-porosity hair\n\nThis is built around a wash-and-go: gentle cleansing, enough conditioning to detangle, and gel for frizz control. In San Francisco\u2019s changeable, often-foggy weather, let the gel dry fully before touching your hair\u2014scrunching it while damp can bring the frizz back.\n\n### Products and estimated costs\n\nPrices are typical US retail estimates; they vary by store and sale. You can generally find these at Target, Walmart, Ulta, or major US online retailers.\n\n| Product | Approx. price | How it fits the routine |\n|---|---:|---|\n| L\u2019Or\u00e9al Paris EverPure Moisture Shampoo, 8.5 oz | $9.99 | Regular wash-day shampoo |\n| L\u2019Or\u00e9al Paris EverPure Moisture Conditioner, 8.5 oz | $9.99 | Detangling on non-mask washes |\n| Garnier Fructis Hair Filler + Ceramide Moisture Repair Mask, 13.5 oz | $9.99 | Weekly conditioner replacement |\n| Kinky-Curly Knot Today Leave-In/Detangler, 8 oz | $13.99 | Light leave-in and extra slip |\n| LA Looks Extreme Sport Gel, 20 oz | $4.99 | Main frizz-control and hold product |\n| Suave Daily Clarifying Shampoo, large bottle | $2.50 | Occasional buildup-removing wash |\n| HASK Keratin Protein Deep Conditioner packet | $2.49 | Optional monthly protein treatment |\n| TRESemm\u00e9 Thermal Creations Heat Tamer, 8 oz | $7.99 | Use before diffusing |\n\n**Initial full-size product basket: about $62 before tax.** The HASK protein treatment is optional; skip it if your hair feels stiff or brittle.\n\n### Wash day: about 60\u201390 minutes\n\nWash about every three days, or roughly **10 times per month**.\n\n1. **Cleanse:** Wet hair thoroughly and massage shampoo into your scalp with your fingertips. Let the suds rinse through the lengths; don\u2019t pile or scrub the hair together. Use the clarifying shampoo **instead of** your regular shampoo about every 4\u20136 weeks, or when styling product buildup is noticeable.\n2. **Condition and detangle:** On most washes, apply conditioner from mid-lengths to ends. Detangle gently with fingers or a wide-tooth comb, starting at the ends and working upward.\n3. **Weekly mask:** Once a week, use the Garnier mask **instead of conditioner**. Follow its label directions; detangle while it has good slip.\n4. **Leave-in:** On soaking-wet hair, smooth a small amount of Knot Today over the lengths. Start with about a teaspoon and add only if your hair needs more.\n5. **Style:** Apply heat protectant if diffusing. Then apply LA Looks gel in sections, smoothing or glazing it over the curls and scrunching upward. Use enough to coat the curls; adjust the amount if you get flakes or a sticky feel.\n6. **Dry:** Air-dry or diffuse on low heat and low airflow. Avoid touching curls until they\u2019re completely dry, then gently scrunch out any firm gel cast.\n\n**For breakage:** Once every 3\u20134 weeks, you can use the HASK packet in place of your regular conditioner or mask, following its directions. It\u2019s a trial, not a requirement: stop if your hair feels harder or more brittle afterward. Protein can help some damaged hair feel stronger, but it won\u2019t fix split ends or ongoing mechanical damage.\n\n### Between washes\n\n- In the morning, use wet hands or a light water mist to reshape flattened curls. Add a tiny amount of leave-in only where needed; add a little gel to frizzy areas if necessary.\n- Avoid brushing or combing dry curls, rough towel-rubbing, and tight styles that pull at the hairline.\n- For sleep, use a satin bonnet or satin pillowcase if you have one. These are reusable accessories, so they\u2019re not included in the monthly product total.\n\n### Estimated monthly product cost\n\nAssuming about 10 washes monthly, one mask use per week, and modest amounts of each product:\n\n- Regular shampoo: **about $2.00**\n- Conditioner: **about $3.60**\n- Weekly mask: **about $3.10**\n- Leave-in: **about $3.00**\n- Gel: **about $1.30**\n- Clarifying shampoo: **about $0.10**\n- Optional protein packet: **about $2.50**\n- Heat protectant: **about $1.70**\n\n**Estimated use-based total: about $17 per month** (roughly **$20\u201325** if you use larger amounts or prices are higher). That\u2019s comfortably below your **$80 monthly budget**. This is the estimated cost of what you use each month, rather than the amount you\u2019d pay if you bought every full-size product at once."
+ }
+]

@@ -1,0 +1,9 @@
+ 6. 4C long, relaxed history, generous budget    ok  
+catalog_only       1/1
+prefs_ok           1/1
+protein_ok         1/1
+wash_time_ok       1/1
+refresh_time_ok    1/1
+medical_flag_ok    1/1
+within_budget      1/1
+total cost $0.0069, tokens 40016

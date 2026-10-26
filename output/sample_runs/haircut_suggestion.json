@@ -1,0 +1,61 @@
+{
+ "what": "haircut_suggestion",
+ "run_id": "18417f11",
+ "steps": [
+  {
+   "run_id": "18417f11",
+   "kind": "haircut",
+   "step": 0,
+   "logged_at": "2026-10-26T15:27:00-04:00",
+   "agent": "haircut",
+   "event": "run_start",
+   "task": "Intake:\nzip_code: 06511\ncurl_pattern: 4B\nporosity: high\nstrand_width: fine\nhair_length: medium\nelasticity: snaps_quickly\nconcerns: ['dryness', 'breakage']\ncolor_treated: False\nheat_styled: False\nchemically_relaxed_or_bleached: False\nstyle_goal: twist_or_braid_out\nwash_every_days: 7\nminutes_per_day: 15\nwash_day_minutes: 120\nmonthly_budget_usd: 35\nfragrance_free: False\nsulfate_free: True\nsilicone_free: False\ncurl_group: coily\n\nHaircut preferences:\n- change: noticeably_shorter\n- maintenance: low\n- ... [truncated, 536 chars total]"
+  },
+  {
+   "run_id": "18417f11",
+   "kind": "haircut",
+   "step": 1,
+   "logged_at": "2026-10-26T15:27:07-04:00",
+   "agent": "haircut",
+   "event": "model_turn",
+   "model": "gpt-6-luna-global",
+   "text": null,
+   "tool_calls": [
+    "final_result"
+   ],
+   "tokens": {
+    "input": 1280,
+    "output": 828
+   }
+  },
+  {
+   "run_id": "18417f11",
+   "kind": "haircut",
+   "step": 2,
+   "logged_at": "2026-10-26T15:27:07-04:00",
+   "agent": "haircut",
+   "event": "tool_call",
+   "tool": "final_result",
+   "args": "{\"options\": [{\"name\": \"Short rounded coil shape\", \"description\": \"A compact, softly rounded shape with subtle layers to reduce bulk and make twist-outs or braid-outs easier to set. Keep the outline simple so it grows out without frequent shaping.\", \"why_for_you\": \"This offers a noticeable change while keeping enough length for your preferred styles. A dry or stretched-dry cut helps account for shrinkage and lets the stylist remove visibly fragile ends in a controlled way.\", \"length_change\": \"Abo... [truncated, 2851 chars total]"
+  },
+  {
+   "run_id": "18417f11",
+   "kind": "haircut",
+   "step": 3,
+   "logged_at": "2026-10-26T15:27:08-04:00",
+   "agent": "haircut",
+   "event": "run_end",
+   "output": "{\"options\": [{\"name\": \"Short rounded coil shape\", \"description\": \"A compact, softly rounded shape with subtle layers to reduce bulk and make twist-outs or braid-outs easier to set. Keep the outline simple so it grows out without frequent shaping.\", \"why_for_you\": \"This offers a noticeable change while keeping enough length for your preferred styles. A dry or stretched-dry cut helps account for shrinkage and lets the stylist remove visibly fragile ends in a controlled way.\", \"length_change\": \"Abo... [truncated, 2851 chars total]",
+   "usage": {
+    "agent": "haircut",
+    "input_tokens": 1280,
+    "cached_tokens": 0,
+    "output_tokens": 828,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 7.8,
+    "cost_usd": 0.000542
+   }
+  }
+ ]
+}

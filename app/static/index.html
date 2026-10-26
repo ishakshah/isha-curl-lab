@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Isha's Curl Lab: a routine builder for textured hair</title>
+  <meta name="description" content="A personal routine for waves, curls, coils and locs, built around your hair, your weather, your time and your budget.">
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="pause-banner" class="banner" role="status" hidden>The app is paused right now. New requests are on hold.</div>
+
+  <header class="top">
+    <a class="brand" href="/" aria-label="Isha's Curl Lab home">
+      <svg viewBox="0 0 48 48" aria-hidden="true" width="34" height="34">
+        <path d="M8 36c0-9 8-9 8-16s-6-8-4-12M20 38c0-9 8-9 8-16s-6-8-4-12M32 40c0-9 8-9 8-16s-6-8-4-12" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"/>
+      </svg>
+      <span>Isha's <em>Curl</em> Lab</span>
+    </a>
+    <nav class="top-actions" aria-label="Main">
+      <button class="link" id="nav-today" hidden>Check today</button>
+      <button class="link" id="nav-restart" hidden>Start over</button>
+      <button class="link" id="nav-signin">Sign in</button>
+      <button class="link" id="nav-account" hidden></button>
+      <button class="link" id="nav-logout" hidden>Log out</button>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="app"></div>
+  </main>
+
+  <footer class="foot">
+    <p class="mission"><b>Our mission:</b> to help people with textured hair manage their hair in a budget-friendly and beginner-friendly way.</p>
+    <p>Made for every texture: waves, curls, coils, locs, braids and short hair. For every gender and every budget.</p>
+    <p>Prices are checked snapshots from US retailers and can change. This app gives hair-care guidance, not medical advice. Photos are analyzed in memory and never stored.</p>
+  </footer>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

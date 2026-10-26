@@ -1,0 +1,869 @@
+[
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 18.53,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 16,
+  "wash_time_ok": true,
+  "refresh_minutes": 4,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Mielle Organics Rosemary Mint Strengthening Shampoo",
+   "Maui Moisture Curl Quench + Coconut Oil Conditioner",
+   "Pantene Pro-V Curl Sculpting Hair Gel for Flexible Waves and Curly Hair"
+  ],
+  "usage": {
+   "input_tokens": 28005,
+   "cached_tokens": 11166,
+   "output_tokens": 6233,
+   "requests": 11,
+   "tool_calls": 16,
+   "cost_usd": 0.004912,
+   "wall_seconds": 43.9
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2759,
+    "cached_tokens": 0,
+    "output_tokens": 776,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 8.2,
+    "cost_usd": 0.000664
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2878,
+    "cached_tokens": 2370,
+    "output_tokens": 870,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 9.4,
+    "cost_usd": 0.000509
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1027,
+    "cached_tokens": 0,
+    "output_tokens": 916,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 8.8,
+    "cost_usd": 0.000561
+   },
+   {
+    "agent": "products",
+    "input_tokens": 16549,
+    "cached_tokens": 7513,
+    "output_tokens": 1491,
+    "requests": 3,
+    "tool_calls": 8,
+    "seconds": 14.4,
+    "cost_usd": 0.001724
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2706,
+    "cached_tokens": 0,
+    "output_tokens": 1114,
+    "requests": 2,
+    "tool_calls": 6,
+    "seconds": 10.8,
+    "cost_usd": 0.000828
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2086,
+    "cached_tokens": 1283,
+    "output_tokens": 1066,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 8.4,
+    "cost_usd": 0.000626
+   }
+  ],
+  "profile": "2B fine waves, short, quick routine",
+  "seconds": 43.9,
+  "budget": 20
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 32.2,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 38,
+  "wash_time_ok": true,
+  "refresh_minutes": 8,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Maui Moisture Curl Quench + Coconut Oil Shampoo for Tight Curly Hair",
+   "Maui Moisture Clarifying Shampoo",
+   "Cantu Sulfate Free Hydrating Cream Conditioner",
+   "SheaMoisture Manuka Honey & Mafura Oil Intensive Hydration Hair Masque",
+   "Mielle Organics Pomegranate & Honey Leave-In Conditioner",
+   "Pantene Pro-V Curl Sculpting Hair Gel for Flexible Waves and Curly Hair"
+  ],
+  "usage": {
+   "input_tokens": 22056,
+   "cached_tokens": 5137,
+   "output_tokens": 5793,
+   "requests": 11,
+   "tool_calls": 15,
+   "cost_usd": 0.004641,
+   "wall_seconds": 41.6
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2750,
+    "cached_tokens": 0,
+    "output_tokens": 624,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 7.2,
+    "cost_usd": 0.000587
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 3043,
+    "cached_tokens": 1248,
+    "output_tokens": 958,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 10.0,
+    "cost_usd": 0.000671
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1023,
+    "cached_tokens": 0,
+    "output_tokens": 1067,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 9.7,
+    "cost_usd": 0.000636
+   },
+   {
+    "agent": "products",
+    "input_tokens": 7963,
+    "cached_tokens": 1127,
+    "output_tokens": 1152,
+    "requests": 2,
+    "tool_calls": 6,
+    "seconds": 10.6,
+    "cost_usd": 0.001271
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 5071,
+    "cached_tokens": 2762,
+    "output_tokens": 846,
+    "requests": 3,
+    "tool_calls": 7,
+    "seconds": 9.9,
+    "cost_usd": 0.000682
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2206,
+    "cached_tokens": 0,
+    "output_tokens": 1146,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 10.3,
+    "cost_usd": 0.000794
+   }
+  ],
+  "profile": "3A, color-treated and heat-styled",
+  "seconds": 41.6,
+  "budget": 40
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 31.17,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 141,
+  "wash_time_ok": true,
+  "refresh_minutes": 13,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Cantu Shea Butter Natural Hair Cleansing Cream Shampoo",
+   "Camille Rose Clean Rinse Clarifying Shampoo",
+   "Aussie Miracle Moist 3 Minute Miracle with Avocado Deep Conditioner",
+   "Cantu Shea Butter Leave-In Conditioning Repair Cream",
+   "Aunt Jackie's Curl La La Defining Curl Custard",
+   "Pantene Pro-V Curl Sculpting Hair Gel for Flexible Waves and Curly Hair"
+  ],
+  "usage": {
+   "input_tokens": 29593,
+   "cached_tokens": 10025,
+   "output_tokens": 7581,
+   "requests": 12,
+   "tool_calls": 28,
+   "cost_usd": 0.005848,
+   "wall_seconds": 57.7
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2775,
+    "cached_tokens": 0,
+    "output_tokens": 671,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 8.2,
+    "cost_usd": 0.000613
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 3029,
+    "cached_tokens": 2372,
+    "output_tokens": 695,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 8.9,
+    "cost_usd": 0.000437
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1021,
+    "cached_tokens": 0,
+    "output_tokens": 560,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 6.3,
+    "cost_usd": 0.000382
+   },
+   {
+    "agent": "products",
+    "input_tokens": 9249,
+    "cached_tokens": 1174,
+    "output_tokens": 1389,
+    "requests": 2,
+    "tool_calls": 7,
+    "seconds": 12.4,
+    "cost_usd": 0.001514
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 6534,
+    "cached_tokens": 3060,
+    "output_tokens": 1293,
+    "requests": 3,
+    "tool_calls": 19,
+    "seconds": 12.7,
+    "cost_usd": 0.001025
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 6985,
+    "cached_tokens": 3419,
+    "output_tokens": 2973,
+    "requests": 2,
+    "tool_calls": 0,
+    "seconds": 22.9,
+    "cost_usd": 0.001877
+   }
+  ],
+  "profile": "3C high porosity, long, twist-outs",
+  "seconds": 57.7,
+  "budget": 35
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 7.64,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 45,
+  "wash_time_ok": true,
+  "refresh_minutes": 6,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Cantu Shea Butter Natural Hair Cleansing Cream Shampoo",
+   "As I Am Classic Curl Clarity Shampoo",
+   "Cantu Sulfate Free Hydrating Cream Conditioner",
+   "SheaMoisture Manuka Honey & Mafura Oil Intensive Hydration Hair Masque",
+   "Cantu Shea Butter Leave-In Conditioning Repair Cream"
+  ],
+  "usage": {
+   "input_tokens": 18504,
+   "cached_tokens": 4712,
+   "output_tokens": 4794,
+   "requests": 10,
+   "tool_calls": 12,
+   "cost_usd": 0.003823,
+   "wall_seconds": 36.6
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2740,
+    "cached_tokens": 0,
+    "output_tokens": 437,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 5.3,
+    "cost_usd": 0.000492
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2878,
+    "cached_tokens": 2357,
+    "output_tokens": 604,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 8.5,
+    "cost_usd": 0.000378
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1006,
+    "cached_tokens": 0,
+    "output_tokens": 759,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 6.1,
+    "cost_usd": 0.00048
+   },
+   {
+    "agent": "products",
+    "input_tokens": 7045,
+    "cached_tokens": 1072,
+    "output_tokens": 1074,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 9.0,
+    "cost_usd": 0.001145
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2703,
+    "cached_tokens": 0,
+    "output_tokens": 427,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 6.2,
+    "cost_usd": 0.000484
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2132,
+    "cached_tokens": 1283,
+    "output_tokens": 1493,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 12.4,
+    "cost_usd": 0.000844
+   }
+  ],
+  "profile": "4A short natural / TWA, tight budget",
+  "seconds": 36.6,
+  "budget": 15
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 4.82,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 80,
+  "wash_time_ok": true,
+  "refresh_minutes": 0,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Camille Rose Clean Rinse Clarifying Shampoo",
+   "Mielle Rosemary Mint Strengthening Hair Masque"
+  ],
+  "usage": {
+   "input_tokens": 22350,
+   "cached_tokens": 10161,
+   "output_tokens": 6019,
+   "requests": 12,
+   "tool_calls": 15,
+   "cost_usd": 0.00433,
+   "wall_seconds": 48.8
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2747,
+    "cached_tokens": 0,
+    "output_tokens": 623,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 7.5,
+    "cost_usd": 0.000586
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2933,
+    "cached_tokens": 2367,
+    "output_tokens": 732,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 9.3,
+    "cost_usd": 0.000446
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1024,
+    "cached_tokens": 0,
+    "output_tokens": 857,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 7.8,
+    "cost_usd": 0.000531
+   },
+   {
+    "agent": "products",
+    "input_tokens": 11240,
+    "cached_tokens": 6511,
+    "output_tokens": 1683,
+    "requests": 4,
+    "tool_calls": 9,
+    "seconds": 14.7,
+    "cost_usd": 0.00138
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2325,
+    "cached_tokens": 0,
+    "output_tokens": 400,
+    "requests": 2,
+    "tool_calls": 4,
+    "seconds": 9.2,
+    "cost_usd": 0.000432
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2081,
+    "cached_tokens": 1283,
+    "output_tokens": 1724,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 15.0,
+    "cost_usd": 0.000955
+   }
+  ],
+  "profile": "4B braids, flaky scalp, fragrance-free",
+  "seconds": 48.8,
+  "budget": 30
+ },
+ {
+  "ok": false,
+  "error": "LimitReached: This run used up its request, tool-call or token allowance.",
+  "usage": {
+   "input_tokens": 23030,
+   "cached_tokens": 6668,
+   "output_tokens": 6341,
+   "requests": 10,
+   "tool_calls": 30,
+   "cost_usd": 0.004873,
+   "wall_seconds": 35.1
+  },
+  "profile": "4C long, relaxed history, generous budget",
+  "seconds": 35.1,
+  "budget": 60
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 12.52,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 80,
+  "wash_time_ok": true,
+  "refresh_minutes": 0,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Maui Moisture Curl Quench + Coconut Oil Shampoo for Tight Curly Hair",
+   "As I Am Classic Curl Clarity Shampoo",
+   "Maui Moisture Curl Quench + Coconut Oil Conditioner",
+   "Mielle Rosemary Mint Strengthening Hair Masque",
+   "As I Am Leave In Conditioner"
+  ],
+  "usage": {
+   "input_tokens": 17028,
+   "cached_tokens": 4743,
+   "output_tokens": 5934,
+   "requests": 10,
+   "tool_calls": 12,
+   "cost_usd": 0.004244,
+   "wall_seconds": 42.7
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2746,
+    "cached_tokens": 0,
+    "output_tokens": 744,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 7.1,
+    "cost_usd": 0.000647
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2918,
+    "cached_tokens": 2357,
+    "output_tokens": 962,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 12.9,
+    "cost_usd": 0.000561
+   },
+   {
+    "agent": "products",
+    "input_tokens": 5635,
+    "cached_tokens": 1103,
+    "output_tokens": 893,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 8.0,
+    "cost_usd": 0.000911
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1014,
+    "cached_tokens": 0,
+    "output_tokens": 1302,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 9.9,
+    "cost_usd": 0.000752
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2581,
+    "cached_tokens": 0,
+    "output_tokens": 403,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 5.3,
+    "cost_usd": 0.00046
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2134,
+    "cached_tokens": 1283,
+    "output_tokens": 1630,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 14.2,
+    "cost_usd": 0.000913
+   }
+  ],
+  "profile": "Locs, buildup, silicone-free",
+  "seconds": 42.7,
+  "budget": 25
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 4.59,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 17,
+  "wash_time_ok": true,
+  "refresh_minutes": 3,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Cantu Shea Butter Natural Hair Cleansing Cream Shampoo",
+   "Maui Moisture Clarifying Shampoo",
+   "Cantu Sulfate Free Hydrating Cream Conditioner",
+   "Aussie Miracle Moist 3 Minute Miracle with Avocado Deep Conditioner",
+   "Cantu Shea Butter Leave-In Conditioning Repair Cream"
+  ],
+  "usage": {
+   "input_tokens": 18677,
+   "cached_tokens": 4709,
+   "output_tokens": 6117,
+   "requests": 10,
+   "tool_calls": 12,
+   "cost_usd": 0.004502,
+   "wall_seconds": 41.8
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2722,
+    "cached_tokens": 0,
+    "output_tokens": 804,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 7.5,
+    "cost_usd": 0.000674
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 3057,
+    "cached_tokens": 2355,
+    "output_tokens": 653,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 9.4,
+    "cost_usd": 0.00042
+   },
+   {
+    "agent": "products",
+    "input_tokens": 7050,
+    "cached_tokens": 1071,
+    "output_tokens": 884,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 8.4,
+    "cost_usd": 0.001051
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1012,
+    "cached_tokens": 0,
+    "output_tokens": 2000,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 16.0,
+    "cost_usd": 0.001101
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2744,
+    "cached_tokens": 0,
+    "output_tokens": 406,
+    "requests": 2,
+    "tool_calls": 5,
+    "seconds": 4.9,
+    "cost_usd": 0.000477
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2092,
+    "cached_tokens": 1283,
+    "output_tokens": 1370,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 10.7,
+    "cost_usd": 0.000779
+   }
+  ],
+  "profile": "3B buzzed, very low budget",
+  "seconds": 41.8,
+  "budget": 10
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 6.09,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 45,
+  "wash_time_ok": true,
+  "refresh_minutes": 5,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Camille Rose Clean Rinse Clarifying Shampoo",
+   "Mielle Rosemary Mint Strengthening Hair Masque"
+  ],
+  "usage": {
+   "input_tokens": 17689,
+   "cached_tokens": 5974,
+   "output_tokens": 5986,
+   "requests": 11,
+   "tool_calls": 17,
+   "cost_usd": 0.004225,
+   "wall_seconds": 41.5
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2745,
+    "cached_tokens": 0,
+    "output_tokens": 761,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 6.9,
+    "cost_usd": 0.000655
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 3066,
+    "cached_tokens": 2367,
+    "output_tokens": 867,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 8.2,
+    "cost_usd": 0.000527
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1032,
+    "cached_tokens": 0,
+    "output_tokens": 1077,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 8.4,
+    "cost_usd": 0.000642
+   },
+   {
+    "agent": "products",
+    "input_tokens": 6510,
+    "cached_tokens": 2324,
+    "output_tokens": 1527,
+    "requests": 3,
+    "tool_calls": 12,
+    "seconds": 15.0,
+    "cost_usd": 0.001205
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 2221,
+    "cached_tokens": 0,
+    "output_tokens": 261,
+    "requests": 2,
+    "tool_calls": 3,
+    "seconds": 4.3,
+    "cost_usd": 0.000353
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2115,
+    "cached_tokens": 1283,
+    "output_tokens": 1493,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 13.3,
+    "cost_usd": 0.000843
+   }
+  ],
+  "profile": "3B all three ingredient filters, thinning",
+  "seconds": 41.5,
+  "budget": 45
+ },
+ {
+  "ok": true,
+  "catalog_only": true,
+  "within_budget": true,
+  "monthly_total": 46.7,
+  "prefs_ok": true,
+  "protein_ok": true,
+  "wash_minutes": 35,
+  "wash_time_ok": true,
+  "refresh_minutes": 10,
+  "refresh_time_ok": true,
+  "medical_flag_ok": true,
+  "weather": true,
+  "products": [
+   "Cantu Shea Butter Natural Hair Cleansing Cream Shampoo",
+   "Maui Moisture Clarifying Shampoo",
+   "SheaMoisture Coconut & Hibiscus Curl & Shine Conditioner",
+   "Aussie Miracle Moist 3 Minute Miracle with Avocado Deep Conditioner",
+   "ApHogee Two-Step Protein Treatment",
+   "Cantu Shea Butter Leave-In Conditioning Repair Cream",
+   "Pantene Pro-V Curl Sculpting Hair Gel for Flexible Waves and Curly Hair"
+  ],
+  "usage": {
+   "input_tokens": 20295,
+   "cached_tokens": 5855,
+   "output_tokens": 5920,
+   "requests": 10,
+   "tool_calls": 16,
+   "cost_usd": 0.004462,
+   "wall_seconds": 42.8
+  },
+  "agents": [
+   {
+    "agent": "weather",
+    "input_tokens": 2750,
+    "cached_tokens": 0,
+    "output_tokens": 703,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 7.4,
+    "cost_usd": 0.000626
+   },
+   {
+    "agent": "hair_science",
+    "input_tokens": 2921,
+    "cached_tokens": 2369,
+    "output_tokens": 729,
+    "requests": 2,
+    "tool_calls": 1,
+    "seconds": 10.7,
+    "cost_usd": 0.000443
+   },
+   {
+    "agent": "schedule",
+    "input_tokens": 1027,
+    "cached_tokens": 0,
+    "output_tokens": 1083,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 9.0,
+    "cost_usd": 0.000644
+   },
+   {
+    "agent": "products",
+    "input_tokens": 8310,
+    "cached_tokens": 1160,
+    "output_tokens": 1465,
+    "requests": 2,
+    "tool_calls": 7,
+    "seconds": 12.0,
+    "cost_usd": 0.001459
+   },
+   {
+    "agent": "budget",
+    "input_tokens": 3011,
+    "cached_tokens": 1043,
+    "output_tokens": 539,
+    "requests": 2,
+    "tool_calls": 7,
+    "seconds": 6.0,
+    "cost_usd": 0.000477
+   },
+   {
+    "agent": "planner",
+    "input_tokens": 2276,
+    "cached_tokens": 1283,
+    "output_tokens": 1401,
+    "requests": 1,
+    "tool_calls": 0,
+    "seconds": 13.5,
+    "cost_usd": 0.000813
+   }
+  ],
+  "profile": "2C bleached, stretchy hair, bigger budget",
+  "seconds": 42.8,
+  "budget": 80
+ }
+]
