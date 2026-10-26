@@ -79,7 +79,7 @@ Results are written to `output/eval/`.
 
 - **Catalog only:** every product id is checked against the verified catalog; an invented one is rejected (the planner gets one retry, then the id is removed). Prices and totals are computed by code.
 - **Prompt injection:** profile notes and any text in a photo are treated as information, never instructions, in every agent's prompt. Tested with a hostile note and a hostile photo (see `output/eval/`).
-- **Overspending:** each build is capped at 20 model requests, 30 tool calls and 60,000 tokens; every response at 2,000 tokens. Each person gets 5 builds and 5 photo checks per 10 minutes, and the whole app stops at 2,000,000 tokens a day. A pause switch (`POST /api/pause`, local machine only) holds all runs.
+- **Overspending:** each build is capped at 20 model requests, 45 tool calls and 60,000 tokens; every response at 2,000 tokens. Each person gets 5 builds and 5 photo checks per 10 minutes, and the whole app stops at 2,000,000 tokens a day. A pause switch (`POST /api/pause`, local machine only) holds all runs.
 - **Audit trail:** every agent step is appended to `output/audit_trail.json` (kept 90 days, values cut at 500 characters). It is not committed.
 - **Medical:** thinning, sores or severe itching trigger a "see a doctor or dermatologist" message instead of product advice.
 - **Accounts:** Argon2id password hashes, 5 failed logins lock an account for 15 minutes (unknown emails too), a signed HttpOnly session cookie, and the same generic "Incorrect email or password" message for every failure.

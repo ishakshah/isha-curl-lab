@@ -851,7 +851,7 @@ function tabToday(r) {
   const out = h("div", { id: "today-out" });
   if (state.today) renderToday(out, state.today, r);
   const go_ = h("button", { class: "btn honey", onclick: async () => {
-    if (touched) { setLastWash(Math.max(0, Math.min(60, Number(daysInput.value || 0)))); touched = false; }  // what you typed lines up This week too
+    setLastWash(Math.max(0, Math.min(60, Number(daysInput.value || 0)))); touched = false;  // whatever is in the box (typed or the starting guess) lines up This week, so both tabs agree
     go_.disabled = true; out.replaceChildren(h("p", { class: "muted", role: "status" }, "Checking your forecast and your routine…"));
     let res = null, err = null;
     try {
@@ -870,6 +870,7 @@ function tabToday(r) {
         h("div", {}, h("label", { class: "label", for: "dsw" }, "Days since your last wash"), daysInput),
         h("div", {}, h("label", { class: "label", for: "mt" }, "Minutes you have today"), minInput)),
       h("div", { class: "row", style: "margin-top:16px" }, go_, washed),
+      since === null ? h("p", { class: "small muted", style: "margin-top:10px" }, `We started with your usual wash schedule (${state.profile.wash_every_days} days). Change the number if it's been a different amount of time.`) : null,
       h("p", { class: "small muted", style: "margin-top:10px" }, "Just washed? Tap \u201cI washed my hair today\u201d. We'll count days from today and line up the This week tab with it. If it was earlier, type how many days ago above."),
       state.lastWash ? h("div", { class: "ok-box", role: "status" }, `Last wash: ${friendlyDate(state.lastWash)}. Next wash due: ${next}. `, h("button", { class: "link", type: "button", onclick: () => { state.tab = "week"; render(); } }, "See This week →")) : null),
     out);
