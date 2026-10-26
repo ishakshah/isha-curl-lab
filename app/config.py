@@ -3,7 +3,7 @@
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
+from dotenv import dotenv_values
 from openai import AsyncOpenAI
 from pydantic_ai.models.openai import OpenAIResponsesModel
 from pydantic_ai.providers.openai import OpenAIProvider
@@ -13,9 +13,19 @@ DATA_DIR = PROJECT_ROOT / "data"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 PROMPT_DIR = Path(__file__).resolve().parent / "prompts"
 
+
+
+def load_env(paths: list[Path]) -> None:
+    """Read .env files in order; the first non-empty value for each name wins (an empty `KEY=` line, like the
+    one copied from .env.example, never hides a real key in a later file)."""
+    for path in paths:
+        for name, value in dotenv_values(path).items():
+            if value and not os.environ.get(name):
+                os.environ[name] = value
+
+
 # This repo's .env first, then the folder above it (where graders keep theirs).
-load_dotenv(PROJECT_ROOT / ".env")
-load_dotenv(PROJECT_ROOT.parent / ".env")
+load_env([PROJECT_ROOT / ".env", PROJECT_ROOT.parent / ".env"])
 
 MODEL_NAME = "gpt-6-luna"  # the only model for every agent; no fallback
 

@@ -142,7 +142,7 @@ App: runs locally from the repository (instructions in the README, about 5 minut
 <h2>5. Safety</h2>
 <table><thead><tr><th>Risk</th><th>Defense</th><th>Evidence</th></tr></thead><tbody>
 <tr><td><b>Attack: prompt injection</b> (a note or a photo that tells the agents what to do)</td><td>Every prompt says profile notes, photo text and product data are information, never instructions. Products are limited to catalog ids, so a hostile product name cannot appear.</td><td>Tested live (below): the note was ignored.</td></tr>
-<tr><td><b>Attack / leak: personal data</b></td><td>Photos are checked to be real images, stripped of metadata, shrunk, analyzed in memory and never saved. Passwords use Argon2id; 5 failed logins lock an account for 15 minutes (unknown emails too); one generic login error; signed HttpOnly cookie. The audit trail and database are not committed.</td><td>Photo rejection screenshot; 28 automated tests including login lockout and cookie tampering.</td></tr>
+<tr><td><b>Attack / leak: personal data</b></td><td>Photos are checked to be real images, stripped of metadata, shrunk, analyzed in memory and never saved. Passwords use Argon2id; 5 failed logins lock an account for 15 minutes (unknown emails too); one generic login error; signed HttpOnly cookie. The audit trail and database are not committed.</td><td>Photo rejection screenshot; 29 automated tests including login lockout and cookie tampering.</td></tr>
 <tr><td><b>Malfunction: invented facts</b></td><td>Products must come from the catalog; prices, costs and totals are computed by code; ingredient flags come from the exact ingredient lists. An invented id is rejected (planner gets one retry, then the id is removed).</td><td>A real rejection from a live run (below) and unit tests.</td></tr>
 <tr><td><b>Malfunction: wrong action or loop</b></td><td>The agents have read-only tools and cannot buy, send or write anything. Request, tool-call and token caps stop a loop.</td><td>The 30-call cap stopping a run (Section 4).</td></tr>
 <tr><td><b>Malfunction: bad medical advice</b></td><td>Thinning, sores or severe itching trigger a see-a-doctor message instead of product advice; the photo agent never judges health, age, gender or ethnicity.</td><td>The thinning test profile set the flag; checked in 10/10 runs.</td></tr>
@@ -161,13 +161,13 @@ monthly total (computed by code):     $14.0</pre>
 <h3>Defense 3: the validator catches an invented product id</h3>
 <pre>2026-10-26T15:11:06-04:00  validator  rejected_ids  stage=products  ids=[&quot;not-your-mother&#x27;s-curl-talk-leave-in-conditioner&quot;]</pre><p>In a real run the product finder wrote an id with an apostrophe that is not in the catalog. The validator rejected it, logged it, and the routine was built from the ids that do exist.</p>
 <h3>Defense 4: spending and login guards, tested</h3>
-<pre>tests/test_auth.py::test_five_failures_lock_the_account_even_for_the_right_password PASSED [ 28%]
-tests/test_auth.py::test_unknown_emails_lock_too PASSED                  [ 32%]
-tests/test_auth.py::test_tampered_or_missing_cookie_is_signed_out PASSED [ 35%]
-tests/test_core.py::test_budget_enforced_in_code PASSED                  [ 53%]
-tests/test_core.py::test_validator_strips_invented_product_ids PASSED    [ 57%]
-tests/test_core.py::test_photo_rate_limit_and_pause_and_daily_cap PASSED [ 64%]
-============================== 28 passed in 2.10s ==============================</pre>
+<pre>tests/test_auth.py::test_five_failures_lock_the_account_even_for_the_right_password PASSED [ 27%]
+tests/test_auth.py::test_unknown_emails_lock_too PASSED                  [ 31%]
+tests/test_auth.py::test_tampered_or_missing_cookie_is_signed_out PASSED [ 34%]
+tests/test_core.py::test_budget_enforced_in_code PASSED                  [ 55%]
+tests/test_core.py::test_validator_strips_invented_product_ids PASSED    [ 58%]
+tests/test_core.py::test_photo_rate_limit_and_pause_and_daily_cap PASSED [ 65%]
+============================== 29 passed in 2.09s ==============================</pre>
 
 <h2>6. Impact</h2>
 <p><b>Quality, measured on 10 varied profiles</b> (2B to 4C, short hair, locs, braids, relaxed and bleached hair, budgets from $10 to $80, all three ingredient filters). Each result was checked by code. The first run of one profile was stopped by a tool-call cap; after raising it we re-ran it, so the table counts 10 completed runs.</p>

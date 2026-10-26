@@ -165,7 +165,7 @@ td.n {{ text-align:right; }}
       <li><b>Invented product id</b> in a live run: rejected by the validator</li>
       <li><b>Overspending</b>: 20 requests, 45 tool calls, 60k tokens per build; 5 builds per 10 min per person; 2M tokens a day; pause switch</li>
       <li><b>Accounts</b>: Argon2id, 5 failures lock 15 minutes</li>
-      <li>28 automated tests, no API key needed</li>
+      <li>29 automated tests, no API key needed</li>
     </ul></div>
     <div style="flex:1">{img("03_photo_rejected.jpg", "width:100%")}</div>
   </div>

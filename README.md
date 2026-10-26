@@ -20,11 +20,11 @@ Hand-offs: `hair scientist + weather` → `schedule + products` → `budget` →
 
 ## Run it (about 5 minutes)
 
-You need **Python 3.10 or newer** and a **Portkey API key** that can call `gpt-6-luna`. No Node, no database to install.
+You need **Python 3.11 or newer** (check with `python3 --version`; the Python that ships with macOS is older, so install a newer one from python.org or with `brew install python@3.13`) and a **Portkey API key** that can call `gpt-6-luna`. No Node, no database to install.
 
 ```bash
-git clone <this repo's URL>
-cd <repo folder>
+git clone https://github.com/ishakshah/isha-curl-lab.git
+cd isha-curl-lab
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -55,7 +55,7 @@ Signing in is optional. Guests keep their routine in the browser. Creating an ac
 python -m pytest -q tests
 ```
 
-These 28 tests need no API key and make no model calls. They cover ingredient analysis, budget rules, the product validator, spending guards, accounts, and the budget/store/ingredient picker.
+These 29 tests need no API key and make no model calls. They cover ingredient analysis, budget rules, the product validator, spending guards, accounts, and the budget/store/ingredient picker.
 
 ### Evaluation scripts (these call the model; about 5 cents each)
 
