@@ -221,11 +221,20 @@ def validator_block():
             "<p>In a real run the product finder wrote an id with an apostrophe that is not in the catalog. The validator rejected it, logged it, and the routine was built from the ids that do exist.</p>")
 
 
+def _user_test_box(ut):
+    useful = "".join(f"<li>{esc(u)}</li>" for u in ut.get("useful", []))
+    return (
+        "<div class='box ok'><b>Real user test.</b> " + esc(ut.get("who", "A person with textured hair tried the app")) + ". "
+        + (f"<b>Before:</b> {esc(ut['before'])} " if ut.get("before") else "")
+        + (f"<b>With the app:</b> she had a routine she said she would trust after about {esc(ut['minutes_to_trust'])} minutes. " if ut.get("minutes_to_trust") is not None else "")
+        + (f"<br><b>Most useful to her (paraphrased):</b><ul style='margin:4pt 0'>{useful}</ul>" if useful else "")
+        + (f"<b>What she would change:</b> {esc(ut['change'])} " if ut.get("change") else "")
+        + (f"<br><i>{esc(ut['caveat'])}</i>" if ut.get("caveat") else "") + "</div>"
+    )
+
+
 user_test_html = (
-    f"<div class='box ok'><b>Real user test.</b> {esc(ut.get('who', 'A person with textured hair'))} tried the app. "
-    + (f"Quote: &ldquo;{esc(ut['quote'])}&rdquo; " if ut.get("quote") else "")
-    + (f"Time to a routine they trusted: {esc(ut['before_minutes'])} minutes before, {esc(ut['after_minutes'])} minutes with the app. " if ut.get("before_minutes") is not None and ut.get("after_minutes") is not None else "")
-    + esc(ut.get("notes", "")) + "</div>"
+    _user_test_box(ut) + "<div class='box note'><b>Next: a test launch.</b> One person is a start. A test launch with a larger and more varied group of potential consumers will add more usage data: how long it takes someone to reach a routine they trust, what they spend each month, and how satisfied they are.</div>"
     if ut else
     "<div class='box note'><b>Next: a test launch.</b> The results above come from controlled runs (10 varied profiles, a comparison with a plain chatbot, and the safety tests). A test launch with a larger and more varied group of potential consumers will add real usage data: how long it takes someone to reach a routine they trust, what they spend each month, and how satisfied they are.</div>"
 )
@@ -385,7 +394,7 @@ monthly total (computed by code):     ${inj['monthly_total']}</pre>
 <h2>7. Limits and next steps</h2>
 <p><b>What does not work yet, or is not proven.</b></p>
 <ul>
-<li><b>Outcomes come next.</b> The numbers here measure the quality of the routines (grounded, in budget, consistent with the person's answers). Whether they improve hair health or save time will be measured in a test launch with a larger and more varied group of potential consumers.</li>
+<li><b>Outcomes come next.</b> So far one person has tried the app (Section 6). The numbers here measure the quality of the routines (grounded, in budget, consistent with the person's answers). Whether they improve hair health or save time will be measured in a test launch with a larger and more varied group of potential consumers.</li>
 <li><b>Photo estimates carry uncertainty.</b> A photo cannot measure porosity, so the app shows an estimate with a confidence level and suggests a strand test. A test launch will gather consented photos across curl types, lighting and skin tones to measure how well the estimates hold up.</li>
 <li><b>The catalog is small</b> ({len(catalog)} products; {under10} under $10) and prices are a snapshot from 2026-10-25; some retailer pages were blocked, so store lists favor Target. The app shows how old each price is.</li>
 <li><b>Budget picks are rules, not quality judgments.</b> At a high budget the app offers pricier options of equal fit; the catalog has no ratings, so &ldquo;pricier&rdquo; does not mean &ldquo;better&rdquo;.</li>
@@ -396,7 +405,7 @@ monthly total (computed by code):     ${inj['monthly_total']}</pre>
 </ul>
 <p><b>What we would build next.</b></p>
 <ul>
-<li><b>Real stylist data and booking.</b> Today the haircut tab gives ideas, search links and a drafted message. Vetted stylist listings and real booking would need services outside the course key, and the haircut ideas should be reviewed by working stylists.</li>
+<li><b>A haircut preview.</b> Our test user asked to see a picture of how a suggested cut might look on her; that is the first thing we would add to the haircut tab.</li>\n<li><b>Real stylist data and booking.</b> Today the haircut tab gives ideas, search links and a drafted message. Vetted stylist listings and real booking would need services outside the course key, and the haircut ideas should be reviewed by working stylists.</li>
 <li>A test launch with a larger and more varied group of potential consumers (curl patterns, genders, ages, budgets and climates) to gather usage data: time to a routine, monthly spend, satisfaction and which steps people follow, plus consented photos to measure the photo agent fairly.</li>
 <li>A bigger, regularly refreshed catalog with retailer coverage, and ratings or ingredient-based quality signals.</li>
 <li>Strand-test guidance in the app, protective-style and locs tracking, and a delete-my-account button.</li>

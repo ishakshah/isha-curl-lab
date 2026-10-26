@@ -49,8 +49,8 @@ def img(name: str, style: str = "") -> str:
 
 
 slide_impact_user = (
-    f"<li>A real person tried it: &ldquo;{ut['quote']}&rdquo;</li>" if ut and ut.get("quote")
-    else "<li>Next: a <b>test launch</b> with a larger, more varied group of potential consumers</li>"
+    "<li><b>Real user test:</b> my sister (2B waves, blow-dries every 3 days) had a routine she'd trust in <b>about 5 minutes</b>; she liked the store and budget switching and the week that moves with her wash day, and asked for a haircut preview</li>"
+    if ut else "<li>Next: a <b>test launch</b> with a larger, more varied group of potential consumers</li>"
 )
 
 html = f"""<!doctype html>
@@ -179,13 +179,13 @@ td.n {{ text-align:right; }}
     <div class="card"><small>Time to a routine</small><div class="big">{avg_wall:.0f}s</div>forecast-aware</div>
   </div>
   <ul style="margin-top:18px">{slide_impact_user}
-  <li>10 profiles: 2B to 4C, short hair, locs, braids, $10 to $80 budgets</li></ul>
+  <li>10 test profiles: 2B to 4C, short hair, locs, braids, $10 to $80 budgets</li>\n  <li>Next: a <b>test launch</b> with a larger, more varied group of potential consumers</li></ul>
 </section>
 
 <section>
   <h2>What's next</h2>
   <ul>
-    <li>A <b>test launch</b>: gather user data from a larger, more varied group of potential consumers (time to a routine, monthly spend, satisfaction)</li>
+    <li>A <b>haircut preview</b>: show how a suggested cut might look (asked for by our test user)</li>\n    <li>A <b>test launch</b>: gather user data from a larger, more varied group of potential consumers (time to a routine, monthly spend, satisfaction)</li>
     <li>Learn from consented <b>hair photos</b> across curl types, lighting and skin tones to sharpen the photo reader</li>
     <li>Real <b>stylist listings and booking</b> (today: ideas, search links and a drafted request)</li>
     <li>A bigger, fresher catalog; a delete-my-account button</li>

@@ -1,4 +1,15 @@
 {
   "github_url": "https://github.com/ishakshah/isha-curl-lab",
-  "repo_private": false
+  "repo_private": false,
+  "user_test": {
+    "who": "My sister, who has 2B wavy hair, tried the app with me sitting next to her",
+    "before": "She does not use curly-hair products or a routine (0 minutes), and she blow-dries her hair for about an hour every 3 days.",
+    "minutes_to_trust": 5,
+    "useful": [
+      "Trying different sets of products by the store she shops at and by budget. She had no fixed budget and was flexible on spend, so she liked seeing how the picks and the monthly cost changed.",
+      "Setting her wash day and watching the coming week's routine change to match it."
+    ],
+    "change": "When a haircut is suggested, she would like to see a picture of how that cut might look on her.",
+    "caveat": "One person, her timing and comments are self-reported and paraphrased, not word-for-word quotes, and she is the builder's sister."
+  }
 }
